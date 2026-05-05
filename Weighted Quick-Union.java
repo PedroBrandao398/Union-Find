@@ -1,8 +1,8 @@
-public class QuickUnionUF {
+public class WQuickUnionUF {
   private int[] id;
   private int[] sz;
 
-  public QuickUnionUF(int N) {
+  public WQuickUnionUF(int N) {
     id = new int[N];
     sz = new int[N];
     for (int i = 0; i < N; i++) {
