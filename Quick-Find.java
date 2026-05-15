@@ -26,6 +26,7 @@ public class QuickFindUF {
     }
   }
 
+  
   //Verifica se p e q tem o mesmo id(grupo)
   public boolean connected(int p, int q) {
     return id[p] == id[q];
