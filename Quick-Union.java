@@ -2,7 +2,7 @@ public class QuickUnionUF {
   private int[] id;
 
   
-  //Criação de objetos QuickFindUF
+  //Criação de objetos UnionFindUF
   public QuickUnionUF(int N) {
     //Cria array de tamanho N
     id = new int[N];
